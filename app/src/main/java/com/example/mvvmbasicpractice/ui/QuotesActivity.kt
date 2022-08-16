@@ -1,11 +1,12 @@
-package com.example.mvvmbasicpractice
+package com.example.mvvmbasicpractice.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.mvvmbasicpractice.R
 
-class MainActivity : AppCompatActivity() {
+class QuotesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_quotes)
     }
 }
